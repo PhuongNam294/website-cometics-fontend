@@ -1,7 +1,5 @@
 # BeautyGlow - Website Mỹ Phẩm Cao Cấp (Frontend)
 
-## Giới thiệu
-
 BeautyGlow là website mỹ phẩm cao cấp được phát triển bằng React và Tailwind CSS.  
 Dự án tập trung vào giao diện người dùng hiện đại, trải nghiệm mượt mà và dễ mở rộng.  
 Bao gồm hai phần chính:
@@ -45,9 +43,20 @@ Bao gồm hai phần chính:
 
 ---
 
-## Cài đặt dự án
+## Hướng dẫn cài đặt và chạy dự án
 
-### 1. Clone repository
+Để cài đặt và khởi chạy dự án, thực hiện lần lượt các bước sau:
+
 ```bash
+# 1. Clone repository
 git clone https://github.com/PhuongNam294/website-cometics-fontend.git
 cd website-cometics-FE
+
+# 2. Cài đặt dependencies
+npm install
+
+# 3. Chạy dự án
+npm run dev
+
+# 4. Mở trình duyệt và truy cập
+http://localhost:5173
